@@ -1,0 +1,88 @@
+.navbar {
+  height: 50px;
+}
+
+.search-container {
+  display: flex;
+  justify-content: flex-start;
+  height: 50px;
+  transform: translateY(-40px);
+  padding-left: 50px;
+}
+
+.search-engine {
+  display: flex;
+  justify-content: center;
+}
+
+.search-button {
+  border: 1px solid black;
+  height: 33px;
+  width: 35px;
+  margin-left: 10px;
+  float: right;
+  background-color: white;
+  animation-name: search;
+  animation-duration: 0.4s;
+  animation-delay: 2s;
+}
+
+.search-button:hover {
+  background-color: lightgray;
+  box-shadow: 2px 2px 2px 2px white;
+}
+
+#clickme {
+  height: 100px;
+  width: 80px;
+  transform: translateX(-18px) translateY(-27px) rotate(-15deg);
+}
+
+.parent-typing-effect {
+  display: flex;
+  border: 1px solid black;
+  justify-content: center;
+  width: 330px;
+  float: left;
+}
+
+#typing-effect {
+  font-size: 40px;
+  white-space: nowrap;
+  overflow: hidden;
+  animation: typing-animation 1s, change-width 5s steps(32, end);
+  animation-iteration-count: 1;
+  animation-duration: 2s;
+}
+
+.pagination {
+  display: inline-block;
+  margin-left: 50px;
+}
+.pagination a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  width: 130px;
+  text-align: center;
+  font-size: 1.5em;
+}
+.pagination .pagination a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+.pagination .pagination a:hover:not(.active) {
+  background-color: #ddd;
+}
+
+.experience {
+  border: 1px solid black;
+  margin-left: 50px;
+  margin-right: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.experience h2 {
+  font-size: 1em;
+}/*# sourceMappingURL=history.css.map */

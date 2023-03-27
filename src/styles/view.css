@@ -1,0 +1,70 @@
+h1 {
+  display: flex;
+  justify-content: center;
+}
+
+h2 {
+  text-align: center;
+  font-size: 48px;
+}
+
+#form {
+  width: 70%;
+  padding: 15px 25px;
+  border: 1px solid black;
+  box-sizing: border-box;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#form .name-inputs {
+  display: inline-block;
+  direction: row;
+}
+#form .name-inputs label {
+  display: block;
+}
+#form .contact-inputs {
+  display: inline-block;
+  direction: row;
+}
+#form .contact-inputs label {
+  display: block;
+}
+#form .form-input {
+  height: 35px;
+  width: 400px;
+  border: 1px solid black;
+}
+#form .message-input {
+  display: inline-block;
+  direction: row;
+  padding-bottom: 10px;
+}
+#form .message-input label {
+  display: block;
+}
+#form .message-input input {
+  height: 35px;
+  width: 830px;
+  border: 1px solid black;
+}
+#form #submit {
+  height: 50px;
+  min-width: 200px;
+  font-size: 18px;
+  font-weight: bold;
+  color: black;
+  background-color: lightgray;
+  border: none;
+  cursor: pointer;
+}
+#form #submit:hover {
+  background-color: pink;
+}
+#form .form-elements {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}/*# sourceMappingURL=view.css.map */
