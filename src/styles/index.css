@@ -95,6 +95,11 @@ header {
   border-top: 10px solid rgb(180, 180, 180);
 }
 
+.button-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 footer {
   height: 64px;
   width: 100%;
@@ -102,10 +107,6 @@ footer {
   text-align: center;
   position: absolute;
   bottom: 0;
-}
-
-a:hover {
-  background-color: white;
 }
 
 #lookup-logo {
@@ -218,7 +219,6 @@ body {
 
 a {
   padding: 8px;
-  width: 280px;
   text-decoration: none;
   font-size: 40px;
   color: black;
@@ -244,7 +244,7 @@ a:hover {
 
 .dropdown {
   position: relative;
-  display: inline-block;
+  display: none;
 }
 
 .dropdown-content {
@@ -273,4 +273,26 @@ a:hover {
 
 .dropdown:hover .dropbtn {
   background-color: white;
+}
+
+@media screen and (max-width: 600px) {
+  header {
+    width: 100%;
+  }
+  .dropdown {
+    display: inline-block;
+  }
+  .button-container {
+    display: none;
+  }
+  .search-engine {
+    display: flex;
+    justify-content: center;
+  }
+  .search-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 }/*# sourceMappingURL=index.css.map */
