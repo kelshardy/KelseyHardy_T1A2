@@ -3,11 +3,7 @@
 .search-container {
   display: flex;
   justify-content: flex-start;
-}
-
-.search-engine {
-  display: flex;
-  justify-content: center;
+  margin-left: 25px;
 }
 
 .search-button {
@@ -36,6 +32,7 @@
   border: 1px solid black;
   justify-content: center;
   padding: 0 40px;
+  background-color: white;
 }
 
 #typing-effect {
@@ -62,6 +59,7 @@
 .pagination {
   display: inline-block;
   margin-left: 50px;
+  margin-top: 10px;
 
   a {
     color: black;
@@ -90,6 +88,7 @@
   margin-right: 50px;
   padding-left: 20px;
   padding-right: 20px;
+  background-color: white;
 
   h2 {
     font-size: 1em;
@@ -145,10 +144,8 @@
 @media (min-width:900px) and (max-width:1200px) {
   .search-container {
     display: flex;
-    justify-content: center;
-    transform: translateY(20px);
-    padding-left: 0px;
-
+    justify-content: flex-start;
+    margin: 20px 0 0 25px;
   }
 
   .pagination {

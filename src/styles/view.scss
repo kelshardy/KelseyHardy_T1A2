@@ -71,7 +71,7 @@
         font-size: 18px;
         font-weight: bold;
         color: black;
-        background-color: lightgray;
+        background-color: $background-color;
         border: none;
         cursor: pointer;
 
@@ -106,7 +106,7 @@
       margin-right: 8px;
       color: black;
       border: 1px solid black;
-      background-color: rgb(180, 180, 180);
+      background-color: $background-color;
 
       i {
         padding: 4px;
