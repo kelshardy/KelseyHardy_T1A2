@@ -19,6 +19,8 @@ All of the pages (excluding the homepage) features a dropdown menu to navigate b
 
 ## Sitemap
 
+![homepage](./docs/sitemap.png)
+
 ## Screenshots
 
 ## Target Audience

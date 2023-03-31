@@ -1,73 +1,69 @@
-.navbar {
-    height: 50px;
-}
+@import "./_common";
 
 .search-container {
-    display: flex;
-    justify-content: flex-start;
-    height: 50px;
-    transform: translateY(-40px);
-    padding-left: 50px;
+  display: flex;
+  justify-content: flex-start;
+}
 
-  }
-  
-  .search-engine {
-    display: flex;
-    justify-content: center;
-    // font-size: 60px;
-  }
-  
-  .search-button {
-    border: 1px solid black;
-    height: 33px;
-    width: 35px;
-    margin-left: 10px;
-    float: right;
-    background-color: white;
-    animation-name: search;
-    animation-duration: .4s;
-    animation-delay: 2s;
-    
-  }
-    
-  .search-button:hover {
-    background-color: lightgray;
-    box-shadow: 2px 2px 2px 2px white;
-  }
+.search-engine {
+  display: flex;
+  justify-content: center;
+}
 
-  #clickme {
-    height: 100px;
-    width: 80px;
-    transform: 
-    translateX(-18px)
-    translateY(-27px)
-    rotate(-15deg);
-  }
+.search-button {
+  border: 1px solid black;
+  height: 50px;
+  width: 50px;
+  margin-left: 10px;
+  float: right;
+  background-color: white;
+}
 
-  .parent-typing-effect {
-    display: flex;
-    border: 1px solid black;
-    justify-content: center;
-    width: 330px;
-    float: left;
-  }
+.search-button:hover {
+  background-color: lightgray;
+  box-shadow: 2px 2px 2px 2px white;
+}
 
-  #typing-effect {
-    font-size: 40px;
-    white-space: nowrap;
-    overflow: hidden;
-    animation: typing-animation 1s, change-width 5s steps(32, end);
-    animation-iteration-count: 1;
-    animation-duration: 2s;
+#clickme {
+  height: 100px;
+  width: 80px;
+  transform:
+    translateX(-11px) translateY(-19px) rotate(-15deg);
+}
+
+.parent-typing-effect {
+  display: flex;
+  border: 1px solid black;
+  justify-content: center;
+  padding: 0 40px;
+}
+
+#typing-effect {
+  font-size: 40px;
+  white-space: nowrap;
+  overflow: hidden;
+  animation: typing-animation;
+  animation-iteration-count: infinite;
+  animation-duration: 1.2s;
+}
+
+@keyframes typing-animation {
+  0% {
+    border-right: none;
   }
 
+  50% {
+    border-right: 1px solid black;
+  }
+}
 
-  
+
+
 .pagination {
-    display: inline-block;
-    margin-left: 50px;
-      
-    a {
+  display: inline-block;
+  margin-left: 50px;
+
+  a {
     color: black;
     float: left;
     padding: 8px 16px;
@@ -75,17 +71,17 @@
     width: 130px;
     text-align: center;
     font-size: 1.5em;
-      
-    }
-      
-    .pagination a.active {
-      background-color: #4CAF50;
-      color: white;
-    }
-      
-    .pagination a:hover:not(.active) {
-      background-color: #ddd;
-    }
+
+  }
+
+  .pagination a.active {
+    background-color: #4CAF50;
+    color: white;
+  }
+
+  .pagination a:hover:not(.active) {
+    background-color: #ddd;
+  }
 }
 
 .experience {
@@ -94,8 +90,71 @@
   margin-right: 50px;
   padding-left: 20px;
   padding-right: 20px;
-  
+
   h2 {
     font-size: 1em;
   }
+}
+
+@media screen and (max-width:600px) {
+  .search-container {
+    display: flex;
+    justify-content: center;
+    transform: translateY(20px);
+    padding-left: 0px;
+
+  }
+
+  .pagination {
+    display: inline-block;
+    margin-top: 25px;
+
+
+    a {
+      width: 75px;
+
+
+    }
+
+  }
+}
+
+@media (min-width:600px) and (max-width:900px) {
+  .search-container {
+    display: flex;
+    justify-content: center;
+    transform: translateY(20px);
+    padding-left: 0px;
+
+  }
+
+  .pagination {
+    display: inline-block;
+    margin-top: 40px;
+
+
+    a {
+      width: 90px;
+
+
+    }
+
+  }
+}
+
+@media (min-width:900px) and (max-width:1200px) {
+  .search-container {
+    display: flex;
+    justify-content: center;
+    transform: translateY(20px);
+    padding-left: 0px;
+
+  }
+
+  .pagination {
+    display: inline-block;
+    margin-top: 40px;
+  }
+
+
 }

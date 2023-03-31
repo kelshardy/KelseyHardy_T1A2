@@ -9,8 +9,8 @@
     <title>Coffee</title>
     <link rel="shortcut icon" href="../../images/star-icon.png">
     <link rel="stylesheet" href="../../styles/blogs.css">
-    <link rel="stylesheet" href="../../styles/header.css">
     <link rel="stylesheet" href="../../styles/blog-footer.css">
+    <link rel="stylesheet" href="../../styles/breakpoints.css">
 </head>
 <body>
     <div class="container">
@@ -25,10 +25,17 @@
                     <a href="../profile.html">Profile</a>
                 </div>
             </div>
-            <p>Edit</p>
+            <div class="nav-desktop">
+                <a href="../../index.html">File</a>
+                <a class="active" href="../edit.html">Edit</a>
+                <a href="../view.html">View</a>
+                <a href="../history.html">History</a>
+                <a href="../profile.html">Profile</a>
+            </div>
         </header>
         <main>
             <h1>Coffee Time</h1>
+            <span class="pub-date">Published 22/01/2022</span>
             <div class="blog-page">
                 <img src="../../images/coffeetime.jpg" class="card-img-top" alt="...">
                 <h2>Why coffee is actually good for you</h2>
@@ -58,7 +65,7 @@
         </main>      
         <footer>
             <div>
-                <a id="return" href="../edit.html">Return</a>
+                <a class="block-btn" id="return" href="../edit.html">Return</a>
             </div>   
         </footer>
     </div>
