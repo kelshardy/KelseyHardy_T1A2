@@ -2,10 +2,12 @@
 
 ## Purpose
 
-The purpose of this portfolio is to showcase my capabilities.
+The purpose of this portfolio is to showcase my coding and creative capabilities, whilst promoting my character, personality and skillset to potential employers.
 
 ## Functionality / Features
 
+The overall look of this portfolio was to come across as a search engine looking up my profile. I also wanted the website to appear as if in the form of a Mac of Microsoft computer with the incorporation of the File, Edit, View, History and Profile buttons featured along the header of the desktop view and collapsed in mobile view.
+The buttons also coincided with the partic
 I have made my portfolio homepage in the form of a search engine, as a way to 'lookup' my profile. I also wanted to incorporate a computer feel with the menu bar across the top. 
 The search button also links to the Profile page as a 'search' feature.
 There is also use of animation on this page as if the viewer is typing my name out into the 'search engine'.
