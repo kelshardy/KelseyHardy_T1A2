@@ -48,12 +48,12 @@ h5 {
     }
 
   }
-  
+  // blog cards scaled upon hover
   .card:hover {
     transform: scale(1.15);
   }
 }
-
+// desktop view
 @media (width>1200px) {
   .blog-cards {
     flex-wrap: nowrap;

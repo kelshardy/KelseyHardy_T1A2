@@ -1,5 +1,6 @@
 @import "./_common";
 
+// search engine
 #lookup-logo {
   width: 700px;
   height: 350px;
@@ -18,7 +19,6 @@
   padding: 0 40px;
   background-color: white;
 }
-
 #typing-effect {
   font-size: 60px;
   white-space: nowrap;
@@ -28,6 +28,7 @@
   animation-duration: 2s;
 }
 
+// typing animation on search bar
 @keyframes change-width {
   0% {
     width: 0;
@@ -86,6 +87,7 @@
   box-shadow: 2px 2px 2px 2px white;
 }
 
+// click button animation
 @keyframes search {
   0% {
     background-color: none;
@@ -105,6 +107,7 @@
 
 }
 
+// mobile view
 @media screen and (max-width: 635px) {
   .search-engine {
     display: flex;

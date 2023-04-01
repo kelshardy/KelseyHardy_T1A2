@@ -1,5 +1,5 @@
 @import "./_common";
-
+// form layout
 #form {
   width: 70%;
   border: 1px solid black;
@@ -76,7 +76,7 @@
         cursor: pointer;
 
       }
-
+      // colour change upon hover
       #submit:hover {
         background-color: pink;
       }
@@ -114,7 +114,7 @@
     }
   }
 }
-
+// mobile view
 @media screen and (max-width:600px) {
 
 
@@ -186,7 +186,7 @@
   }
 
 }
-
+// mobile to tablet view
 @media (min-width:600px) and (max-width:900px) {
 
   #form {
@@ -245,7 +245,7 @@
 
   }
 }
-
+// tablet to desktop view
 @media (min-width:900px) and (max-width:1200px) {
 
   #form {

@@ -1,3 +1,6 @@
+// blog pages only - breakpoints
+
+// mobile view
 @media screen and (max-width:600px) {
   header {
     width: 100%;
@@ -37,7 +40,7 @@
   }
 
 }
-
+// mobile to tablet view
 @media (min-width:600px) and (max-width: 900px) {
   header {
     width: 100%;
@@ -72,17 +75,9 @@
     }
   }
 
-  // footer {
-  //   display: flex;
-
-  //   #return {
-  //     float: left;
-  //   }
-  // }
-
-
 }
 
+// tablet to desktop view
 @media (min-width:900px) and (max-width: 1200px) {
   header {
     width: 100%;
@@ -99,9 +94,7 @@
     .blog-page {
       flex-direction: column;
       align-items: center;
-      // padding: 0;
-      // margin: 0;
-
+      
       img {
         display: flex;
         width: 90%;

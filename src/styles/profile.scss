@@ -1,5 +1,5 @@
 @import "./_common";
-
+// search bar top left
 .search-container {
   display: flex;
   justify-content: flex-start;
@@ -52,7 +52,7 @@
   animation-iteration-count: infinite;
   animation-duration: 1.2s;
 }
-
+// search bar animation
 @keyframes typing-animation {
   0% {
     border-right: none;
@@ -71,7 +71,7 @@ h1 {
   color: blue;
   margin: 0;
 }
-
+// colour change hyperlink effect
 h1:hover {
   color: rebeccapurple;
 }
@@ -96,7 +96,7 @@ h1:hover {
     margin-left: 10px;
   }
 }
-
+// mobile view
 @media screen and (max-width:600px) {
   .search-container {
     display: flex;

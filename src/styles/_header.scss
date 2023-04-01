@@ -1,3 +1,5 @@
+// main header information for each page
+
 header {
   height: 64px;
   width: 100%;
@@ -76,7 +78,7 @@ header {
     background-color: white;
   }
 }
-
+// mobile view
 @media screen and (max-width: 635px) {
   .dropdown {
     display: inline-block;
