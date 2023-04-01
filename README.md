@@ -71,6 +71,9 @@ The profile page uses the same search container and link system as the History p
 
 ![profilepage](/docs/Profile%20Page.png)
 
+- Resume Mockup
+
+![resume-mockup](/docs/Resume%20Mockup.png)
 ## **Target Audience**
 
 The target audience is potential employers from within the tech industry or anyone who is curious to learn more about myself as a person.
