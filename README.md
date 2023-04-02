@@ -32,6 +32,28 @@ The history page is a record of past work, studies and extra-curricular activiti
 The footer on this page is has a solid bar featuring a PDF link to my resume mockup.
 The profile page uses the same search container and link system as the History page. It also has a colour change upon hover of the header text, as if clicking on a hyperlink that would be found in a 'search results' page. It has a short biography alongside my profile image. The footer returns to having a social media focus as featured on the File and Edit pages.
 
+- An example of code for Mobile View response.
+
+```
+@media screen and (max-width: 635px) {
+  .search-engine {
+    display: flex;
+    justify-content: center;
+  }
+
+  .search-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .search-button {
+    margin-top: 5px;
+  }
+}
+```
+
 ## **Sitemap**
 
 ![sitemap](/docs/sitemap.png)
