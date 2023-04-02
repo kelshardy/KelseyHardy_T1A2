@@ -4,6 +4,9 @@
 ## GitHub Link
 [GitHub Repo](https://github.com/kelshardy/KelseyHardy_T1A2)
 
+## Presentation Video Link
+[Presentation Video](https://youtu.be/NCU9Py7FMPI)
+
 ## **Purpose**
 
 The purpose of this portfolio is to showcase my coding and creative capabilities, whilst promoting my character, personality and skillset to potential employers.
@@ -74,6 +77,7 @@ The profile page uses the same search container and link system as the History p
 - Resume Mockup
 
 ![resume-mockup](/docs/Resume%20Mockup.png)
+
 ## **Target Audience**
 
 The target audience is potential employers from within the tech industry or anyone who is curious to learn more about myself as a person.
